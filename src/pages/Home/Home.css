@@ -1,0 +1,503 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 10vw;
+  }
+  
+  .text-part {
+    max-width: 60%;
+    padding-right: 8vw;
+  }
+  
+  .text-part span {
+    color: #6e4f35;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .text-part h1 {
+    font-size: 4.5vw;
+    color: #ffff;
+    font-weight: 500;
+    line-height: 4.5vw;
+  }
+  
+  .img-part {
+    max-width: 40%;
+  }
+  
+  .img-part img {
+    width: 100%;
+  }
+  
+  .parah p {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #fcfcfc;
+    margin: 2rem 0;
+  }
+  
+  .menu-btn {
+    padding: 0.6rem 2rem;
+    color: #fcfcfc;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #6e4f35;
+    border-radius: 50px;
+  }
+  
+  .video-btn {
+    margin-left: 1rem;
+    color: #fcfcfc;
+    font-size: 18px;
+    font-weight: 300;
+    border: 2px solid #6e4f35;
+    border-radius: 50px;
+    padding: 0.5rem 1.8rem;
+  }
+  
+  .video-btn i {
+    font-size: 22px;
+    color: #6e4f35;
+  }
+
+
+  
+.about {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10vw;
+  }
+  
+  .about-txt {
+    flex-basis: 50%;
+    padding-right: 3vw;
+    align-self: center;
+  }
+  
+  .about-wrapper span {
+    color: #6e4f35;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .about-wrapper h2 {
+    font-size: 2.5vw;
+    font-weight: 500;
+    color: #000;
+    padding: 1rem 0;
+    letter-spacing: 1px;
+  }
+  
+  .about-wrapper p {
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 4vw;
+  }
+  
+  .about-wrapper a {
+    background-color: #6e4f35;
+    color: #fcfcfc;
+    padding: 0.6rem 2rem;
+    border-radius: 30px;
+  }
+  
+  .about-img {
+    flex-basis: 50%;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .about-img-1 {
+    flex-basis: 50%;
+  }
+  
+  .about-img-1 img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+  }
+  
+  .about-img-2 {
+    flex-basis: 50%;
+  }
+  
+  .about-img-2 img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+  }
+  
+  .menu {
+    width: 100%;
+    height: 100vh;
+    background-color: #18191b;
+    padding: 0 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-heading {
+    text-align: center;
+    padding: 5vw 0 0 0;
+  }
+  
+  .menu-heading span {
+    color: #6e4f35;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .menu-heading h3 {
+    color: #fcfcfc;
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+  
+  .menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-list-text {
+    padding: 2rem;
+  }
+  
+  .line {
+    height: 400px;
+    border: dotted 1px #6e4f35;
+  }
+  
+  .menu-list-text h2 {
+    color: #6e4f35;
+    font-size: 1.8vw;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  
+  .menu-list-text table {
+    width: 100%;
+  }
+  
+  .menu-list-text table tr th {
+    text-align: start;
+    color: #fcfcfc;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 2rem;
+  }
+  
+  .menu-list-text table tr th:nth-child(2) {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  
+  .menu-list-text table tr th p {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .menu-btn-div {
+    text-align: center;
+    margin-top: 3vw;
+  }
+  
+  .menu-ubb {
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+  
+  .connect {
+    height: 100vh;
+    width: 100%;
+    background-color: #18191b;
+    padding: 0 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .find-add {
+    flex-basis: 50%;
+    height: 70%;
+    border: 2px dotted #6e4f35;
+    border-width: 3px;
+    border-radius: 30px;
+    padding: 0 4rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .e-part span {
+    color: #6e4f35;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .e-part h2 {
+    color: #fcfcfc;
+    padding: 1rem 0;
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
+  
+  .e-part p {
+    color: #fcfcfc;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .e-part h3 {
+    color: #fcfcfc;
+    font-size: 1.5vw;
+    font-weight: 400;
+    padding-top: 2rem;
+  }
+  
+  .e-part small {
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .e-part>div {
+    margin-top: 2rem;
+  }
+  
+  .e-part>div>a {
+    color: #fff;
+    border-radius: 30px;
+    background-color: #6e4f35;
+    padding: 0.7rem 1.2rem;
+  }
+  
+  .booking {
+    flex-basis: 50%;
+    height: 70%;
+    border: 2px dotted #6e4f35;
+    border-width: 3px;
+    border-radius: 30px;
+    padding: 0 4rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .story {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    padding: 0 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .story-img {
+    flex-basis: 50%;
+  }
+  
+  .story-img img {
+    width: 90%;
+    border-radius: 20px;
+  }
+  
+  .story-text {
+    flex-basis: 50%;
+  }
+  
+  .story-text span {
+    color: #6e4f35;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  
+  .story-text h2 {
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 1rem 0;
+  }
+  
+  .story-steps {
+    display: flex;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+  }
+  
+  .steps-logo img {
+    width: 100%;
+  }
+  
+  .steps-text h3 {
+    color: #18191b;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  
+  .steps-text p {
+    color: #777777;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .story-btn {
+    margin-left: 3.5rem;
+  }
+  
+  .story-btn a {
+    color: #fcfcfc;
+    background-color: #6e4f35;
+    padding: 0.7rem 1.5rem;
+    border-radius: 30px;
+  }
+  
+  .chefs {
+    height: 100vh;
+    width: 100;
+    background-color: #18191b;
+    padding: 0 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .chef-heading {
+    text-align: center;
+  }
+  
+  .chef-heading span {
+    color: #6e4f35;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  
+  .chef-heading h2 {
+    color: #fcfcfc;
+    font-size: 2vw;
+    font-weight: 500;
+  }
+  
+  .cards {
+    display: flex;
+    padding: 3rem 0;
+    gap: 2rem;
+  }
+  
+  .card {
+    height: 460px;
+    width: 300px;
+  }
+  
+  .chef-img img {
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  .chef-name h4 {
+    padding-top: 1rem;
+    text-align: center;
+    color: #6e4f35;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  
+  .blog {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blog-cards {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .blog-heading {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  
+  .blog-heading span {
+    color: #6e4f35;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  
+  .blog-heading h2 {
+    color: #18191b;
+    font-size: 2vw;
+    font-weight: 500;
+  }
+  
+  .blog-card {
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    width: 350px;
+    height: 400px;
+    margin: 1rem;
+    transition: 250ms all ease-in-out;
+    cursor: pointer;
+  }
+  
+  .blog-card:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .banner-img {
+    position: absolute;
+    object-fit: cover;
+    height: 14rem;
+    width: 100%;
+  }
+  
+  .card-body {
+    margin: 15rem 1rem 1rem 1rem;
+  }
+  
+  .blog-hashtag {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #6e4f35;
+  }
+  
+  .blog-title {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    margin: 1rem 0;
+    color: #18191b;
+  }
+  
+  .card-body a {
+    color: #6e4f35;
+    font-size: 16px;
+  }

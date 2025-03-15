@@ -1,0 +1,74 @@
+.ri-phone-fill {
+    color: #6e4f35;
+    font-size: 20px;
+  }
+  
+  .ri-mail-fill {
+    color: #6e4f35;
+    font-size: 20px;
+  }
+  
+  .navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    background-color: #fff;
+  }
+  
+  .hamburger {
+    font-size: 25px;
+    color: #6e4f35;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .nav {
+    padding: 1.5vw 10vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 2vw;
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #6e4f35;
+    letter-spacing: 1px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-links li {
+    list-style: none;
+    align-self: center;
+  }
+  
+  .nav-links li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 1px;
+  }
+  
+  .nav-links li a:hover {
+    color: #6e4f35;
+    transition: all ease-in-out 200ms;
+  }
+  
+  .nav-btns {
+    align-self: center;
+  }
+  
+  .nav-btns a {
+    color: #000;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+  }
+  
+  .nav-btns a:hover {
+    color: #6e4f35;
+    transition: all ease-in-out 200ms;
+  }
